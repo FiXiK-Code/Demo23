@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище uch1ModelContainer" CdmEntityContainer="uch1Entities">
+    <EntitySetMapping Name="podzharow_DEMO">
+      <EntityTypeMapping TypeName="uch1Model.podzharow_DEMO">
+        <MappingFragment StoreEntitySet="podzharow_DEMO">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="img_path" ColumnName="img_path" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="manufacturer" ColumnName="manufacturer" />
+          <ScalarProperty Name="prise" ColumnName="prise" />
+          <ScalarProperty Name="descount" ColumnName="descount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

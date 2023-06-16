@@ -1,0 +1,29 @@
+﻿<Window x:Class="Pojarov_DEMO.Склад"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pojarov_DEMO"
+        mc:Ignorable="d"
+        Title="Склад" Height="450" Width="677.411" Loaded="Window_Loaded">
+    <Grid>
+        <Button x:Name="Button_exit" Content="Exit" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="75" TabIndex="1" Click="Button_exit_Click"/>
+        <Label Content="Сортировка по стоимости:" HorizontalAlignment="Right" Margin="0,46,66,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ComboBox_prise" HorizontalAlignment="Right" Margin="0,77,66,0" VerticalAlignment="Top" Width="154" TabIndex="2" SelectionChanged="ComboBox_prise_SelectionChanged">
+            <TextBlock Text="Без сортировки"/>
+            <TextBlock Text="По возрастанию"/>
+            <TextBlock Text="По убыванию"/>
+        </ComboBox>
+        <Label Content="Отфильтровать по размеру скидки:" HorizontalAlignment="Right" Margin="0,107,16,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ComboBox_discount" HorizontalAlignment="Right" Margin="0,138,66,0" VerticalAlignment="Top" Width="154" TabIndex="3" SelectionChanged="ComboBox_discount_SelectionChanged">
+            <TextBlock Text="Все диапазоны"/>
+            <TextBlock Text="0-9,99%"/>
+            <TextBlock Text="10-14,99%"/>
+            <TextBlock Text="15% и более"/>
+        </ComboBox>
+        <Label x:Name="Label_view_item_count" Content="13" Margin="10,15,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="из" Margin="33,15,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="24"/>
+        <Label x:Name="Label_all_item_count" Content="13" Margin="57,15,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <DataGrid x:Name="DataGrid_products" Margin="10,46,242,20" SelectionChanged="DataGrid_products_SelectionChanged" LoadingRow="DataGrid_products_LoadingRow" />
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="Pojarov_DEMO.Карточка_товара"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pojarov_DEMO"
+        mc:Ignorable="d"
+        Title="Карточка товара" Height="248.951" Width="651.21" Loaded="Window_Loaded">
+    <Grid>
+        <Image x:Name="img_product" Height="200" Width="200" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" d:LayoutOverrides="Width" Source="Снимок.PNG"/>
+        <TextBlock x:Name="TextBlock_description_product" Margin="316,49,10,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="66" d:LayoutOverrides="VerticalAlignment"/>
+        <Label Content="Производитель:" HorizontalAlignment="Left" Margin="10,263,0,239" d:LayoutOverrides="Height"/>
+        <Label Content="Наименование:" HorizontalAlignment="Left" Margin="215,18,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <Label x:Name="Label_name_product" Content="Кекчук" Margin="316,18,279,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment, Width"/>
+        <Label Content="Описание:" HorizontalAlignment="Left" Margin="215,42,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <Label Content="Цена:" HorizontalAlignment="Left" Margin="215,174,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label_price" Content="1000000" Margin="263,174,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="Скидка:" Margin="0,174,231,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label x:Name="Label_descount" Content="50%" Margin="0,174,193,0" VerticalAlignment="Top" HorizontalAlignment="Right"/>
+        <Label Content="Производитель:" HorizontalAlignment="Left" Margin="215,126,0,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <Label x:Name="Label_name_manufacturer" Content="ООО АО ЭЭЭЭЭЭксперементы" Margin="316,126,10,0" VerticalAlignment="Top" d:LayoutOverrides="VerticalAlignment"/>
+        <Button x:Name="Button_close" Content="Закртыть" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="75" TabIndex="1" Click="Button_close_Click"/>
+
+    </Grid>
+</Window>

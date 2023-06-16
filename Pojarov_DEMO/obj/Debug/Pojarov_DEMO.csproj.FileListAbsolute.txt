@@ -1,0 +1,48 @@
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.exe.config
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.exe
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.pdb
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.AssemblyReference.cache
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\App.g.cs
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.cache
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.lref
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.g.resources
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.Properties.Resources.resources
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.GenerateResource.cache
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.CoreCompileInputs.cache
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.exe
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.pdb
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Карточка товара.g.cs
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Склад.g.cs
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Карточка товара.baml
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Склад.baml
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_Content.g.cs
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\EntityFramework.dll
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\EntityFramework.SqlServer.dll
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\EntityFramework.xml
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\EntityFramework.SqlServer.xml
+C:\Рабочая папка\Pojarov_DEMO\bin\Debug\ru\EntityFramework.resources.dll
+C:\Рабочая папка\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.CopyComplete
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.exe.config
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.exe
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\Pojarov_DEMO.pdb
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.dll
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.SqlServer.dll
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.xml
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.SqlServer.xml
+D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\ru\EntityFramework.resources.dll
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.AssemblyReference.cache
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Карточка товара.g.cs
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Склад.g.cs
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\App.g.cs
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_Content.g.cs
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.cache
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.lref
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Карточка товара.baml
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Склад.baml
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.g.resources
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.Properties.Resources.resources
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.GenerateResource.cache
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.CoreCompileInputs.cache
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.CopyComplete
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.exe
+D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.pdb
