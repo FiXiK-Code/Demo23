@@ -1,7 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Хранилище uch1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <!--Ошибки, обнаруженные при создании:
-предупреждение 6002: В таблице или представлении "uch1.dbo.podzharow_DEMO" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
   <EntityType Name="podzharow_DEMO">
     <Key>
       <PropertyRef Name="id" />
@@ -10,21 +8,14 @@
     <Property Name="name" Type="varchar" MaxLength="60" />
     <Property Name="img_path" Type="varchar" MaxLength="100" />
     <Property Name="description" Type="text" />
-    <Property Name="manufacturer" Type="varchar" MaxLength="100" />
+    <Property Name="category" Type="varchar" MaxLength="100" />
     <Property Name="prise" Type="float" />
     <Property Name="descount" Type="float" />
+    <Property Name="count" Type="int" />
+    <Property Name="priceToDescount" Type="float" />
+    <Property Name="priseOutput" Type="varchar" MaxLength="50" />
   </EntityType>
   <EntityContainer Name="Хранилище uch1ModelContainer">
-    <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [podzharow_DEMO].[id] AS [id], 
-    [podzharow_DEMO].[name] AS [name], 
-    [podzharow_DEMO].[img_path] AS [img_path], 
-    [podzharow_DEMO].[description] AS [description], 
-    [podzharow_DEMO].[manufacturer] AS [manufacturer], 
-    [podzharow_DEMO].[prise] AS [prise], 
-    [podzharow_DEMO].[descount] AS [descount]
-    FROM [dbo].[podzharow_DEMO] AS [podzharow_DEMO]</DefiningQuery>
-    </EntitySet>
+    <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

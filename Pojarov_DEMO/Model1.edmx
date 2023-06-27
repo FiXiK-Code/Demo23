@@ -5,8 +5,6 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
       <Schema Namespace="Хранилище uch1Model" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <!--Ошибки, обнаруженные при создании:
-предупреждение 6002: В таблице или представлении "uch1.dbo.podzharow_DEMO" не определен первичный ключ. Ключ был выведен, а определение таблицы или представления было создано в режиме только для чтения.-->
         <EntityType Name="podzharow_DEMO">
           <Key>
             <PropertyRef Name="id" />
@@ -15,22 +13,15 @@
           <Property Name="name" Type="varchar" MaxLength="60" />
           <Property Name="img_path" Type="varchar" MaxLength="100" />
           <Property Name="description" Type="text" />
-          <Property Name="manufacturer" Type="varchar" MaxLength="100" />
+          <Property Name="category" Type="varchar" MaxLength="100" />
           <Property Name="prise" Type="float" />
           <Property Name="descount" Type="float" />
+          <Property Name="count" Type="int" />
+          <Property Name="priceToDescount" Type="float" />
+          <Property Name="priseOutput" Type="varchar" MaxLength="50" />
         </EntityType>
         <EntityContainer Name="Хранилище uch1ModelContainer">
-          <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [podzharow_DEMO].[id] AS [id], 
-    [podzharow_DEMO].[name] AS [name], 
-    [podzharow_DEMO].[img_path] AS [img_path], 
-    [podzharow_DEMO].[description] AS [description], 
-    [podzharow_DEMO].[manufacturer] AS [manufacturer], 
-    [podzharow_DEMO].[prise] AS [prise], 
-    [podzharow_DEMO].[descount] AS [descount]
-    FROM [dbo].[podzharow_DEMO] AS [podzharow_DEMO]</DefiningQuery>
-          </EntitySet>
+          <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema>
     </edmx:StorageModels>
@@ -45,9 +36,12 @@
           <Property Name="name" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
           <Property Name="img_path" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-          <Property Name="manufacturer" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
           <Property Name="prise" Type="Double" />
           <Property Name="descount" Type="Double" />
+          <Property Name="count" Type="Int32" />
+          <Property Name="priceToDescount" Type="Double" />
+          <Property Name="priseOutput" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="uch1Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" />
@@ -65,9 +59,12 @@
                 <ScalarProperty Name="name" ColumnName="name" />
                 <ScalarProperty Name="img_path" ColumnName="img_path" />
                 <ScalarProperty Name="description" ColumnName="description" />
-                <ScalarProperty Name="manufacturer" ColumnName="manufacturer" />
+                <ScalarProperty Name="category" ColumnName="category" />
                 <ScalarProperty Name="prise" ColumnName="prise" />
                 <ScalarProperty Name="descount" ColumnName="descount" />
+                <ScalarProperty Name="count" ColumnName="count" />
+                <ScalarProperty Name="priceToDescount" ColumnName="priceToDescount" />
+                <ScalarProperty Name="priseOutput" ColumnName="priseOutput" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

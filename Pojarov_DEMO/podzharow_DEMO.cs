@@ -18,8 +18,11 @@ namespace Pojarov_DEMO
         public string name { get; set; }
         public string img_path { get; set; }
         public string description { get; set; }
-        public string manufacturer { get; set; }
+        public string category { get; set; }
         public Nullable<double> prise { get; set; }
         public Nullable<double> descount { get; set; }
+        public Nullable<int> count { get; set; }
+        public Nullable<double> priceToDescount { get; set; }
+        public string priseOutput { get; set; }
     }
 }

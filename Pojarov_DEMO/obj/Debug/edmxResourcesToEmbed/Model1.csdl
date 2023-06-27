@@ -8,9 +8,12 @@
     <Property Name="name" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
     <Property Name="img_path" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <Property Name="manufacturer" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="category" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
     <Property Name="prise" Type="Double" />
     <Property Name="descount" Type="Double" />
+    <Property Name="count" Type="Int32" />
+    <Property Name="priceToDescount" Type="Double" />
+    <Property Name="priseOutput" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
   </EntityType>
   <EntityContainer Name="uch1Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="podzharow_DEMO" EntityType="Self.podzharow_DEMO" />

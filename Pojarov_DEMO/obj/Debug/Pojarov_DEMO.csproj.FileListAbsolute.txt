@@ -31,13 +31,11 @@ D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.xml
 D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\EntityFramework.SqlServer.xml
 D:\Programm\Projects\!Demo\Pojarov_DEMO\bin\Debug\ru\EntityFramework.resources.dll
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.csproj.AssemblyReference.cache
-D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Карточка товара.g.cs
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Склад.g.cs
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\App.g.cs
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_Content.g.cs
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.cache
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO_MarkupCompile.lref
-D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Карточка товара.baml
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Склад.baml
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.g.resources
 D:\Programm\Projects\!Demo\Pojarov_DEMO\obj\Debug\Pojarov_DEMO.Properties.Resources.resources
